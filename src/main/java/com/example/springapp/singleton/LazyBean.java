@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Lazy
-public class LazySingletonBean {
-    public LazySingletonBean() {
+public class LazyBean {
+    public LazyBean() {
         System.out.println("LazySingletonBean initialized lazily");
     }
 }
